@@ -1,0 +1,20 @@
+{
+    "name": "scripts.loc/composer",
+    "description": "composer test",
+    "license": "1.0.0",
+    "authors": [
+        {
+            "name": "Alex Alex",
+            "email": "algerd75@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Main\\": "src/controller/main",
+            "Model\\":"src/model/"
+        },
+        "classmap": ["classes/"],
+        "files": ["functions/show.php", "functions/name.php"]
+    }
+}

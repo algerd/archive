@@ -1,0 +1,21 @@
+﻿
+http://www.php.net/manual/ru/book.reflection.php
+
+
+Reflector (интерфейс) - на его основе реализуются все информационные Reflection-классы: 
+    ReflectionClass, ReflectionMethod, ReflectionObject, ReflectionParameter, ReflectionProperty, ReflectionFunction, ReflectionExtension, ReflectionZendExtension
+
+Reflection - предоставляющий обзор (сводную информацию) по переданному ему объекту Reflector-классов.
+
+ReflectionExtension - сообщает информацию о модулях.
+
+ReflectionClass - сообщает информацию о классе. 
+ReflectionObject - сообщает информацию о объекте (о классе, которому принадлежит объект).
+ReflectionMethod - сообщает информацию о методах.
+ReflectionProperty сообщает информацию о свойствах класса
+
+ReflectionFunction сообщает информацию о функциях.
+
+ReflectionParameter сообщает информацию об аргументах методов и функций.
+
+

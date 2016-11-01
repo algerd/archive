@@ -1,0 +1,23 @@
+Все настройки в : Windows - Preferences
+
+Настройка шрифта:
+    General - Appearance - Colors and Fonts - Structured Text Editors - Edit:
+    - по умолчанию Consolas 10 обычный
+    - делаем моноширинный шрифт! Courier New 12 обычный (обычный, чтобы полужирным выделить отдельные языковые конструкции)
+
+Отключение или настройка проверки орфографии текста:
+    General - Editors - Text Editors:
+    - отключить, настроить и подключить внешний словарь - Spelling 
+    - настроить отображение орфографических ошибок - Annotations: выбрать Spelling Errors
+
+Настройка форматирования языковых конструкций PHP:
+    PHP - Code Style - Formatter
+
+Настройка цвета синтаксиса языковых конструкций PHP:
+    PHP - Editor - Syntax Coloring
+
+Настройка языковых шаблонов PHP:
+    PHP - Editor - Templates
+
+      
+     

@@ -1,0 +1,10 @@
+
+Создать классы-обёртки функциональных блоков:
+- MyString - обёртка строк. Для работы с объектом как со строкой использовать _toString
+- MyArrayIterator - обёртка ArrayIterator с включением в него функций массива
+- MyDate - обёртка date-функций. Реализован в классе PHP DateTime
+- MyGET и MyPOST - тип MyArrayIterator. При извлечении элемента должны возвращать объект класса MyString
+- MyCookie - тип MyArrayIterator
+- MySession
+
+	 

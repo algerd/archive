@@ -1,0 +1,8 @@
+
+Ссылкана документацию:
+http://files.zend.com/help/Zend-Studio/content/phpdocumentor.html
+
+Путь к установленному в плагине Zend-Studio phpDocumentor.phar файлу при генерации phpDocumentor:
+I:\Program Files\Zend\Zend Studio 11.0.0\plugins\com.zend.php.phpdocumentor_11.0.0.201407111020\resources\phpDocumentor.phar
+
+Открывать файл документации из браузера.

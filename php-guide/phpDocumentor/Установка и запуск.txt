@@ -1,0 +1,36 @@
+  http://www.php.net/manual/en/function.array-column.php
+
+Для нормального отображения phpdocumentor в браузере надо в Windows инсталлировать graphviz.
+Для Zend Studio ненадоотдельно инсталировать phpdocumentor, он инсталлируется в плагине и из плагина берётся phpdocumentor.phar.
+Для работы вне Zend Studio через консоль надо устанавливать phpdocumentor как написано ниже.
+
+1. Создать в папке, где находятся все домейны, создать папку напр. phpdoc.loc перейти в неё и загрузить в неё через композер phpdocumentor
+
+	I:\OpenServer\domains\phpdoc.loc>composer require "phpdocumentor/phpdocumentor:2.*"
+
+2. Для запуска команд phpdocumentor надо из директории, куда установили composer.json набирать команду vendor\bin\phpdoc [команда]:
+
+	I:\OpenServer\domains\phpdoc.loc>vendor\bin\phpdoc -d I:\OpenServer\domains\zend.loc
+
+3. Создание шаблона проекта и сохранение его в заданной директории:
+
+	-d [директория проекта, из которго делается шаблон] напр -d I:\OpenServer\domains\zend.loc
+	-f [директория файла, из которого делается шаблон] напр -f I:\OpenServer\domains\zend.loc\class.php
+	-t [директория, где будет лежать шаблон] напр -t I:\OpenServer\domains\phpdoc.loc\zf2
+
+	--ignore [игнорирование директории или файла] --ignore -f I:\OpenServer\domains\zend.loc\class.php
+	--template="имя шаблона" (clean, zend, ) --template="clean" --template="zend" -d ./ - сразу два шаблона
+
+		abstract - depricated
+		checkstyle - xml
+		clean
+		new-black - depricated
+		old-ocean - depricated
+		responsive - неинформативно
+	    responsive-twig - depricated
+		xml
+		zend
+
+
+	I:\OpenServer\domains\phpdoc.loc>
+	vendor\bin\phpdoc --template="responsive" -d I:\OpenServer\domains\zend.loc\vendor\zendframework\zendframework\library\Zend\Di -t .\zf2
